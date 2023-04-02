@@ -73,7 +73,7 @@ $message[] = '</table>';
 
 $message = implode("", $message);
 
-$subject = $email_predmet . " - " . $nazev_webu;
+$subject = $email_subject . " - " . $web_name;
 
 
 /* if (in_array('', [$name, $email]) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
@@ -100,9 +100,9 @@ try {
 
     //Recipients
     //$mail->setFrom(SMTP_USERNAME, FROM_NAME);
-    $mail->From = $email_odesilatele;
-    $mail->FromName = $nazev_webu;
-    $mail->addAddress($email_prijemce, $nazev_webu);     //Add a recipient
+    $mail->From = $email_from;
+    $mail->FromName = $web_name;
+    $mail->addAddress($email_to, $web_name);     //Add a recipient
     // $mail->addAddress('ellen@example.com');               //Name is optional
     // $mail->addReplyTo($email);
     // $mail->addCC('cc@example.com');

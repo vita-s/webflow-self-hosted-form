@@ -1,6 +1,6 @@
 <?php
-    $nazev_webu = "Name of the webiste";
-    $email_predmet = "Subject of the email";
-    $email_prijemce = "E-mail of recepient";
-    $email_odesilatele = "Sender's e-mail";
+    $web_name = "Name of the webiste";
+    $email_subject = "Subject of the email";
+    $email_to = "E-mail of recipient";
+    $email_from = "Sender's e-mail";
 ?>
