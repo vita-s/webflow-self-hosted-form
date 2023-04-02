@@ -1,6 +1,6 @@
 <?php
-    $nazev_webu = "Charme Clinic";
-    $email_predmet = "Zpráva z webu";
-    $email_prijemce = "svojse.v@gmail.com";
-    $email_odesilatele = "web@domena.cz";
+    $nazev_webu = "Name of the webiste";
+    $email_predmet = "Subject of the email";
+    $email_prijemce = "E-mail of recepient";
+    $email_odesilatele = "Sender's e-mail";
 ?>
