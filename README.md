@@ -18,6 +18,8 @@ value: 'form'
 
 ### 3. Name your form fields correctly (the names will be used in the e-mail)
 
+!!! Don't use diacritic, since these will be shown incorrectly !!!
+
 <img width="244" alt="image" src="https://user-images.githubusercontent.com/30877483/229381567-ee39af7c-9c0a-4d26-ab10-a277aac7c80d.png">
 
 ### 4. Go to "Project settings" -> "Custom Code" -> "Footer Code" and add this line
