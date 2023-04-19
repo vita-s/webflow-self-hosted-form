@@ -5,10 +5,13 @@ Utility to easily submit form from a self hosted Webflow page. Download this fol
 
 ### 1. Open Webflow and find all your forms you want to be able to submit
 
+!!! Make sure you selected the right element - you should select the Form element (your name could be different if you renamed it) that is on the same level as your success and error messages elements. !!! 
+
 <img width="325" alt="image" src="https://user-images.githubusercontent.com/30877483/229381472-9cb980fa-25ce-415e-abc5-e5e92af9b384.png">
 
 ### 2. In settings of this "Form" element add "Custom atribute"
 Name: 'data-local'
+
 value: 'form'
 
 <img width="244" alt="image" src="https://user-images.githubusercontent.com/30877483/229381504-d22bef2b-497b-4822-a433-345a055fec5b.png">
