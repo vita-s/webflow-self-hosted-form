@@ -20,7 +20,7 @@ $('[data-local="form"]').each(function () {
 
         $.ajax({
             type: "POST",
-            url: 'local-mail/email.php',
+            url: 'webflow-self-hosted-form-main/email.php',
             data: $(this).serialize(),
             success: function (data) {
                 console.log(data);
