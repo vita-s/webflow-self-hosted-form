@@ -8,6 +8,8 @@ Utility to easily submit form from a self hosted Webflow page. Download this fol
 <img width="325" alt="image" src="https://user-images.githubusercontent.com/30877483/229381472-9cb980fa-25ce-415e-abc5-e5e92af9b384.png">
 
 ### 2. In settings of this "Form" element add "Custom atribute"
+Name: 'data-local'
+value: 'form'
 
 <img width="244" alt="image" src="https://user-images.githubusercontent.com/30877483/229381504-d22bef2b-497b-4822-a433-345a055fec5b.png">
 
