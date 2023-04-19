@@ -22,7 +22,7 @@ value: 'form'
 
 ### 4. Go to "Project settings" -> "Custom Code" -> "Footer Code" and add this line
 
-```<script src="/webflow-self-hosted-form/email.js"></script>```
+```<script src="/webflow-self-hosted-form-main/email.js"></script>```
 
 ### 4. Export your Webflow project
 
@@ -34,7 +34,7 @@ value: 'form'
 
 <img width="288" alt="image" src="https://user-images.githubusercontent.com/30877483/229381938-c246fa54-3c15-4705-8355-2eef1d89b1e8.png">
 
-### 7. Open file `webflow-self-hosted-form/settings.php` and set your variables accordingly
+### 7. Open file `webflow-self-hosted-form-main/settings.php` and set your variables accordingly
 
 ### 8. Upload to hosting and test
 
